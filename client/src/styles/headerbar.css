@@ -1,0 +1,31 @@
+
+.box {
+    background-color: #191414;
+    height: 75px;
+    width: 100%;
+    margin: 0px;
+    display: float;
+}
+
+.headerTitle {
+    display: flex;
+    height: 100%;
+    float: left;
+    align-items: center;
+}
+
+.pageTitle {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px 20px;
+    user-select: none;
+}
+
+.logo {
+    height: 70%;
+    padding-left: 20px;
+}

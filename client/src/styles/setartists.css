@@ -1,0 +1,111 @@
+.homeBox > h4 {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+.homeBox > h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.inputBox{
+    display: flex;
+    width:80%;
+    justify-content:center;
+}
+
+.startBtn {
+    height: 45px;
+    width: 100px;
+    margin-left: 5px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.startBtn:hover {
+    background-color: white;
+    color: #1DB954;}
+
+.searchArtist {
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: 'Signika', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.artistBox {
+    width: 70%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    max-height: 65vh;
+    scrollbar-width: none;    
+}
+
+.artistBox::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.artistOption {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 30%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.artistOption:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.artistOption > h5 {
+    margin: 5px 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.selectedArtist {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 30%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.selectedArtist:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.selectedArtist > h5 {
+    margin: 5px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
